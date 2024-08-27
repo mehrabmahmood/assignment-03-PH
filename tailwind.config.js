@@ -6,3 +6,12 @@ module.exports = {
     },
     plugins: [],
   }
+  module.exports = {
+    theme: {
+      // ...
+    },
+    plugins: [
+      require('@tailwindcss/aspect-ratio'),
+      // ...
+    ],
+  }
